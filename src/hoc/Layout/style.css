@@ -1,0 +1,47 @@
+
+#site_header{
+    position: fixed;
+    z-index: 900;
+
+}
+
+#site_contact_modile{
+    position: absolute;
+    z-index: 900;
+    top: 60px;
+    left: 60px;
+}
+/**
+Для мобил
+ */
+@media (max-width: 800px) {
+    #site_header{
+        position: static;
+        z-index: 900;
+    }
+    #site_podmen{
+        display: none;
+    }
+    #site_contact_modile{
+        display: none;
+    }
+
+    #device_list2 {
+
+        padding: 0px 15px 30px 15px;
+    }
+    #device_list1{
+        padding: 30px 15px 0px 15px;
+    }
+}
+/**
+Для десктопов
+ */
+@media (min-width: 800px) {
+
+
+    #site_contact_desktop{
+        display: none;
+    }
+
+}

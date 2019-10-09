@@ -1,0 +1,21 @@
+Плагины для next js https://github.com/zeit/next-plugins/tree/master/packages
+
+
+Что бы читались фотки установить плагин
+
+https://github.com/twopluszero/next-images
+
+добавить в корне файл
+
+next.config.js
+
+следущее содержимое:
+
+const withImages = require('next-images')
+module.exports = withImages()
+
+
+Что бы читались css файлы установить плагин
+
+https://github.com/zeit/next-plugins/tree/master/packages/next-css
+
